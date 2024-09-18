@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Assignment 3</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Assignment 3</h1>
+    <div class="game-container">
+      <h3>Day Finder</h3>
+      <p>Rules: Enter a number between 1 and 7 to display the corresponding day.</p>
+      <button onclick="findDay()">Start</button>
+    </div>
+
+    <div class="game-container">
+      <h3>Grade Evaluator</h3>
+      <p>Rules: Enter a grade between 0 and 100 to get the letter grade.</p>
+      <button onclick="checkGrade()">Start</button>
+    </div>
+
+    <div class="game-container">
+      <h3>Guessing Game</h3>
+      <p>Rules: Enter a number between 1 and 10 to try and guess the mystery number.</p>
+      <button onclick="checkNumber()">Start</button>
+    </div>
+
+    <div class="game-container">
+      <h3>Multiplication Table</h3>
+      <p>Rules: Enter a number to display its multiplication table</p>
+      <button onclick="findMultiplicationTable()">Start</button>
+    </div>
+
+    <div class="game-container">
+      <h3>Password Validator</h3>
+      <p>Rules: Create a password and confirm it</p>
+      <button onclick="validatePassword()">Start</button>
+    </div>
+  </div>
+
+  <script src="js/DayFinder.js"></script>
+  <script src="js/GradeEvaluator.js"></script>
+  <script src="js/GuessingGame.js"></script>
+  <script src="js/MultiplicationTable.js"></script>
+  <script src="js/PasswordValidator.js"></script>
+</body>
+</html>
