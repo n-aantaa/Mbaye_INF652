@@ -34,9 +34,11 @@ input {
   font-weight: 500;
 }
 
-.collection-item #remove-btn {
+.collection-item .remove-btn {
   color: red;
+  border: none;
   cursor: pointer;
+  border-radius: 80%;
 }
 
 #add-movie-btn {
